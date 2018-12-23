@@ -5,9 +5,9 @@ Above API consumes json data from multiple URLs , aggregate the data and return 
 
 To build the project, please use below command
 
-mvn clean install
+a. mvn clean install
 
-A war file will be created under target folder. deploy the war file onto a server. Used WildFly for testing purpose.
+A war file will be created under target folder under the base folder. deploy the war file onto a server. I have Used WildFly for testing purpose. 
 
 Steps to deploy
 
@@ -19,7 +19,7 @@ Swagger2 has been used for API documentation. Once the application has been depl
 
 http://localhost:8080/tg-sg-api/swagger-ui.html
 
-Resources have been secured with OAuth secutiry. Please pass in below token as Authorisation header.
+Resources have been secured with OAuth securiry. Please pass in below token as Authorisation header.
 
 VGdBZG1pbjphc3NpZ25tZW50
 
